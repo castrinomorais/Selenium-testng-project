@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-27T10:05:32 IST" name="TestSuite" finished-at="2025-03-27T10:06:28 IST" duration-ms="56064">
+    <groups>
+    </groups>
+    <test started-at="2025-03-27T10:05:32 IST" name="Test" finished-at="2025-03-27T10:06:28 IST" duration-ms="56064">
+      <class name="org.project.Seleniumtestngproject.Testclasstwo">
+        <test-method signature="checkBox()[pri:0, instance:org.project.Seleniumtestngproject.Testclasstwo@a530d0a]" started-at="2025-03-27T10:05:32 IST" name="checkBox" finished-at="2025-03-27T10:05:41 IST" duration-ms="9228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method signature="numberOfFramesInWebpage()[pri:0, instance:org.project.Seleniumtestngproject.Testclasstwo@a530d0a]" started-at="2025-03-27T10:05:41 IST" name="numberOfFramesInWebpage" finished-at="2025-03-27T10:05:48 IST" duration-ms="6279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfFramesInWebpage -->
+        <test-method signature="seleniumIframes()[pri:0, instance:org.project.Seleniumtestngproject.Testclasstwo@a530d0a]" started-at="2025-03-27T10:05:48 IST" name="seleniumIframes" finished-at="2025-03-27T10:05:53 IST" duration-ms="5598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumIframes -->
+        <test-method signature="seleniumRadioButtons()[pri:0, instance:org.project.Seleniumtestngproject.Testclasstwo@a530d0a]" started-at="2025-03-27T10:05:53 IST" name="seleniumRadioButtons" finished-at="2025-03-27T10:05:59 IST" duration-ms="5461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumRadioButtons -->
+        <test-method signature="windowHandlesExercise()[pri:0, instance:org.project.Seleniumtestngproject.Testclasstwo@a530d0a]" started-at="2025-03-27T10:05:59 IST" name="windowHandlesExercise" finished-at="2025-03-27T10:06:12 IST" duration-ms="12892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandlesExercise -->
+        <test-method signature="windowHandlesExercisetwo()[pri:0, instance:org.project.Seleniumtestngproject.Testclasstwo@a530d0a]" started-at="2025-03-27T10:06:12 IST" name="windowHandlesExercisetwo" finished-at="2025-03-27T10:06:22 IST" duration-ms="10087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandlesExercisetwo -->
+      </class> <!-- org.project.Seleniumtestngproject.Testclasstwo -->
+      <class name="org.project.Seleniumtestngproject.Testclassthree">
+        <test-method signature="downloadAndValidation()[pri:0, instance:org.project.Seleniumtestngproject.Testclassthree@4efc180e]" started-at="2025-03-27T10:05:32 IST" name="downloadAndValidation" finished-at="2025-03-27T10:05:40 IST" duration-ms="7905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadAndValidation -->
+        <test-method signature="explicitWait()[pri:0, instance:org.project.Seleniumtestngproject.Testclassthree@4efc180e]" started-at="2025-03-27T10:05:40 IST" name="explicitWait" finished-at="2025-03-27T10:05:56 IST" duration-ms="16258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- explicitWait -->
+        <test-method signature="hyperLinks()[pri:0, instance:org.project.Seleniumtestngproject.Testclassthree@4efc180e]" started-at="2025-03-27T10:05:56 IST" name="hyperLinks" finished-at="2025-03-27T10:06:11 IST" duration-ms="14097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hyperLinks -->
+        <test-method signature="textBox()[pri:0, instance:org.project.Seleniumtestngproject.Testclassthree@4efc180e]" started-at="2025-03-27T10:06:11 IST" name="textBox" finished-at="2025-03-27T10:06:21 IST" duration-ms="10543" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8dd0982e28daf68f3c025dbf4f38a89, sendKeysToElement {value=[Ljava.lang.CharSequence;@354160f4, id=f.16B4FB5E17E33094D0420A69ACC80FD0.d.BC94104619FFDC4603B771423D3449A3.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65253/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e8dd0982e28daf68f3c025dbf4f38a89)] -> id: j_idt88:j_idt91]
+Session ID: e8dd0982e28daf68f3c025dbf4f38a89]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8dd0982e28daf68f3c025dbf4f38a89, sendKeysToElement {value=[Ljava.lang.CharSequence;@354160f4, id=f.16B4FB5E17E33094D0420A69ACC80FD0.d.BC94104619FFDC4603B771423D3449A3.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65253/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e8dd0982e28daf68f3c025dbf4f38a89)] -> id: j_idt88:j_idt91]
+Session ID: e8dd0982e28daf68f3c025dbf4f38a89
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy11.sendKeys(Unknown Source)
+at org.project.Seleniumtestngproject.Testclassthree.textBox(Testclassthree.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textBox -->
+        <test-method signature="uploadOperation()[pri:0, instance:org.project.Seleniumtestngproject.Testclassthree@4efc180e]" started-at="2025-03-27T10:06:21 IST" name="uploadOperation" finished-at="2025-03-27T10:06:26 IST" duration-ms="4583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadOperation -->
+      </class> <!-- org.project.Seleniumtestngproject.Testclassthree -->
+      <class name="org.project.Seleniumtestngproject.Testclassone">
+        <test-method signature="brokenLink()[pri:0, instance:org.project.Seleniumtestngproject.Testclassone@1a18644]" started-at="2025-03-27T10:05:32 IST" name="brokenLink" finished-at="2025-03-27T10:05:40 IST" duration-ms="8052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLink -->
+        <test-method signature="screenShot()[pri:0, instance:org.project.Seleniumtestngproject.Testclassone@1a18644]" started-at="2025-03-27T10:05:40 IST" name="screenShot" finished-at="2025-03-27T10:05:48 IST" duration-ms="7946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="scrollaWebPage()[pri:0, instance:org.project.Seleniumtestngproject.Testclassone@1a18644]" started-at="2025-03-27T10:05:48 IST" name="scrollaWebPage" finished-at="2025-03-27T10:05:54 IST" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollaWebPage -->
+        <test-method signature="seleniumAlerts()[pri:0, instance:org.project.Seleniumtestngproject.Testclassone@1a18644]" started-at="2025-03-27T10:05:54 IST" name="seleniumAlerts" finished-at="2025-03-27T10:06:01 IST" duration-ms="6413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumAlerts -->
+        <test-method signature="seleniumDropDown()[pri:0, instance:org.project.Seleniumtestngproject.Testclassone@1a18644]" started-at="2025-03-27T10:06:01 IST" name="seleniumDropDown" finished-at="2025-03-27T10:06:10 IST" duration-ms="9386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumDropDown -->
+        <test-method signature="seleniumPromptAlerts()[pri:0, instance:org.project.Seleniumtestngproject.Testclassone@1a18644]" started-at="2025-03-27T10:06:10 IST" name="seleniumPromptAlerts" finished-at="2025-03-27T10:06:19 IST" duration-ms="8990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumPromptAlerts -->
+        <test-method signature="waysToReloadWebPage()[pri:0, instance:org.project.Seleniumtestngproject.Testclassone@1a18644]" started-at="2025-03-27T10:06:19 IST" name="waysToReloadWebPage" finished-at="2025-03-27T10:06:28 IST" duration-ms="9201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waysToReloadWebPage -->
+      </class> <!-- org.project.Seleniumtestngproject.Testclassone -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>
